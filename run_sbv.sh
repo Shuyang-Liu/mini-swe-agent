@@ -1,0 +1,9 @@
+mini-extra swebench \
+  --model mistralai/devstral-small \
+  --model-class openrouter \
+  --subset verified \
+  --split test \
+  --slice 0:1 \
+  --config src/minisweagent/config/extra/swebench_devstral_small.yaml \
+  --output outputs/SWEV/mistralai/devstral-small \
+  --workers 4 \
